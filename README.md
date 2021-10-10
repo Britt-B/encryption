@@ -1,6 +1,6 @@
 # Encryption
 ## Ceasar Cypher
-Ceasar Cypher solves an encrypted message from cipher.txt by determining possible key values. The input is scanned and compared to common (english) language trends such as letter and small word frequency. The letters e, t, a, r, i, and o are tested as possible key shift values. The most frequent 1, 2, and 3  letter words are used to verify the correctness of the key shift. A success ratio is calculated (greater than 0.05 passes) and the output is printed to console and solvedFile.txt.
+Ceasar Cypher solves an encrypted message from cipher.txt by determining possible key values. The input is scanned and compared to common (english) language trends such as letter and small word frequency. The letters 'e', 't', 'a', 'r', 'i', and 'o' are tested as possible key shift values. The most frequent 1, 2, and 3  letter words are used to verify the correctness of the key shift. A success ratio is calculated (greater than 0.05 passes) and the output is printed to console and solvedFile.txt.
 ### Run Locally:
 * g++ -o ceasar ceasar.cpp
 * ./ceasar
